@@ -28,4 +28,5 @@ jobs:
             Contrib/firewall-disabler/StdAfx.cpp
             Contrib/firewall-disabler/firewall-disabler.cpp
             Contrib/firewall-disabler/firewall-disabler.rc
+          targets: x86-ansi
           release: ${{ github.event_name == 'release' }}
